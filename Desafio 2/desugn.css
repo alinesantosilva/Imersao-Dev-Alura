@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 854px;
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-2-calculadora-certa.png');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .calculadora {
+    width: 660px;
+    height:660px;
+    background-image: url('https://lh3.googleusercontent.com/E3DkZ-7jGGMJrI1xjmK3nFdA5O51s8cHqQNVCCyu8yrlS9XX1Ap8xa-e8-am6uxijOff2Ss8Mz_gK74PgyJf-gJWwiAbimauPVG9KDLSDiwW8kaXmwBE7t5T9ogSF1pvUGEmATP-Heq0el9snG9WG-vXPXuD5E7GI8yhQ1mbJWEelpNT_wudXflgUlGWvfivmuD7l2w1Eh1iufCiClTJljghsggZbhDFi3dNP1M1I8PFIQBWF9QyzN7ffDDoONm7f_d9Pr-UBTwCq49tTBuKYRfk7Cn_v5mPIiN0znwVR5MrQjiu1BQIoWVzuXTpgglpV-WvplwLpBTyihLPUJqtVxOFqG8XcVwXVeESwDhD8m9eb9ZE_XgSHLhRa5-LOC5ssEZE9egtebDrljEmxsW07lttJtjU1utyGOe2-rZzOO13EuFzlYut5uHGrGsXTcS7V6slRiaqPX0GLHJIt5g94YmzOAGkPtppKTd2xUSo0MbeDdKegUk95VJTM05aDV-iL38SB4P7umvau4yW_M0RCzDEMgjfav49hTlvb4Yhw4YVVCGaSXClhlFZZU9FqS-pJwHXSiCiVh17DswHwvOvluRQZj6shZfhG6y3skO6dgblahBonnzDXpIGcuXECOK0686FZ5H1ymh-7ZwHUT1zYSnrwYjC8imAFS2qnijq0FraLkuiQSmt6yRkxdadQLZi0SfLzZ-YnJcrHOE9etqNa04=s757-no?authuser=0');
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  h2 {
+    position: absolute;
+    font-size:28px;
+    font-weight:bold;
+    top: 260px;
+    left: calc(55% - 32.0px);
+    width: 250px;
+    text-align:absolute;
+    color: #ffffff; 
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
